@@ -1,0 +1,38 @@
+body{
+    background: rgb(53, 51, 51);
+}
+#title, .subtitle, .post_title, p, li{
+    color: rgb(255, 255, 255);
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    padding-left: 2%;
+}
+
+.My_image img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px 20px;
+}
+
+.post_images img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px 20px;
+    margin-right: 10px;
+}
+
+.post{
+    border: 3px solid #505050;
+    border-radius: 20px;
+    margin-right: 40%;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
