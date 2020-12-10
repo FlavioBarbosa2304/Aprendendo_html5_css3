@@ -1,9 +1,9 @@
 body{
     background: rgb(231, 231, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #title, .subtitle, .post_title, p, li{
     color: #251e63;
-    font-family: "Verdana", 'Times New Roman', Times, serif;
 }
 
 .post_title{
@@ -35,6 +35,23 @@ body{
 p{
     margin-left: 10px;
     margin-right: 10px;
+    text-align: justify;
 }
 
+a {
+    text-decoration: underline;
+    color: #1d1d1d;
+}
+
+.link_git{
+    list-style-image: url(images/github_image.png);
+}
+
+.link_linkedin{
+    list-style-image: url(images/linkdin_image.png);
+}
+
+.link_whatsapp{
+    list-style-image: url(images/whatsapp_image.png);
+}
 
