@@ -1,5 +1,9 @@
+:root{
+    --main-color: blue;
+}
+
 body{
-    background: rgb(231, 231, 231);
+    background:  linear-gradient( 45deg, rgb(24, 139, 233),  rgb(13, 86, 146) );
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #title, .subtitle, .post_title, p, li{
@@ -10,6 +14,11 @@ body{
     font-size: 16px;
     font-style: italic;
     padding-left: 2%;
+}
+
+.My_image{
+    max-width: 130px;
+    margin: 0;
 }
 
 .My_image img{
@@ -43,15 +52,44 @@ a {
     color: #1d1d1d;
 }
 
-.link_git{
-    list-style-image: url(images/github_image.png);
+.menu{
+    background-color: rgb(37, 37, 39);
+    margin-bottom: 20px;
 }
 
-.link_linkedin{
-    list-style-image: url(images/linkdin_image.png);
+.menu ul {
+    max-width: 950px;
+    list-style: none;
+    padding: 0;
 }
 
-.link_whatsapp{
-    list-style-image: url(images/whatsapp_image.png);
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+.container {
+    display: block;
+    background-color: #FFF;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.cabecalho {
+    margin: 0;
+    width: 150px;
 }
 
