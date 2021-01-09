@@ -2,69 +2,82 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <meta charset="utf-8">
     <title>Flávio Barbosa</title>
 </head>
 
 <body>
     <header>
-        <nav class="menu">
-            <ul> 
-                <li class="botoes_menu">
-                    <a href="#">Início</a>
-                </li>
-                <li class="botoes_menu">
-                    <a href="#">Projetos atuais</a>
-                </li>
-                <li class="botoes_menu">
-                    <a href="#">Concluídos</a>
-                </li>
-                <li class="botoes_menu">
-                    <a href="#">Frases</a>
-                </li>
-                <li class="botoes_menu">
-                    <a href="#">sobre mim</a>
-                </li>
-                <li class="link_git">
-                    <a href="https://github.com/FlavioBarbosa2304">GitHub</a>
-                </li>
-                <li class="link_linkedin">
-                    <a href="https://www.linkedin.co/in/flávio-barbosa-a10b451a2">Linkdin</a>
-                </li> 
-            </ul>
-        </nav>
+        <div class="menu">
+            <nav id="navegation"class="g-navegation">
+                <div class="image">
+                    <img src="images/MinhaFoto.jpg" alt="Minha Foto"/>
+                </div>
+                <nav class="links">
+                    <li class="botoes_menu">
+                        <a href="#">Projetos atuais</a>
+                    </li>
+                    <li class="botoes_menu">
+                        <a href="#">Concluídos</a>
+                    </li>
+                    <li class="botoes_menu">
+                        <a href="#">Frases</a>
+                    </li>
+                    <li class="botoes_menu">
+                        <a href="#">sobre mim</a>
+                    </li>
+                    <li class="botoes_menu">
+                        <a href="https://github.com/FlavioBarbosa2304">GitHub</a>
+                    </li>
+                </nav>
+            </nav>
+        </div>
     </header>
-    <div class="cabecalho">
-        <figure class="My_image">
-            <img src="images/MinhaFoto.jpg" alt="Minha Foto"/>
-        </figure>
-    </div>
-    <div class="container">
+
+    <div class="group">
         <section>
-            <header>
-                <h2 class="subtitle">Posts</h2>
-            </header>
+            <h2 class="subtitle">Posts</h2>
         </section>
-        <article class="post" >
-            <header>
-                <h3 class="post_title">Projeto jogo fase 1</h3>
-            </header>
-            <p>
-                Meu projeto de jogo consiste em uma personagem feminina que seria a última da espécie humana vivendo entre
-                outras espécies alienígenas e tentando sobreviver captando recursos para sua nave e para ela com oxigênio,
-                hidrogênio, água, metais e outros. Além disso ela terá de cultivar alimentos em sua nave para poder se
-                alimentar já que nem toda comida das outras espécies serve para ela, e em meio a tudo isso sua trama se
-                desenvolve tentando descobrir o que aconteceu com os humanos, qual o seu propósito no universo e se algum
-                dia terá um lugar para chamar de lar.
-                <p><a href="https://github.com/FlavioBarbosa2304/proj_jogo_fase1">Link do projeto no git</a></p>
-                <figure class="post_images">
-                    <img src="images/SplashArt.png"/><img src="images/Esboso_Personagem.png"/>
-                </figure>
-            </p>
-        </article>
-        <footer></footer>
+        <div id="cointainer" class="container">
+            <article class="post1" >
+                <h3>Projeto jogo fase 1</h3>
+                <p>
+                    Meu projeto de jogo consiste em uma personagem feminina que seria a última da espécie humana vivendo entre
+                    outras espécies alienígenas e tentando sobreviver captando recursos para sua nave e para ela como oxigênio,
+                    hidrogênio, água, metais e outros. Além disso ela terá de cultivar alimentos em sua nave para poder se
+                    alimentar já que nem toda comida das outras espécies serve para ela, e em meio a tudo isso sua trama se
+                    desenvolve tentando descobrir o que aconteceu com os humanos, qual o seu propósito no universo e se algum
+                    dia terá um lugar para chamar de lar.
+                </p>
+                    <a href="https://github.com/FlavioBarbosa2304/proj_jogo_fase1">Link do projeto no git</a>
+                    <div class="images-post">
+                            <img src="images/SplashArt.png"/><img src="images/Esboso_Personagem.png"/>
+                    </div>   
+            </article>
+            <article class="post2">
+
+            </article>
+            
+        </div>
+        <div id="container-lat" class="container-lat">
+            <h3>Analises de jogos</h3>
+        </div>
     </div>
+    <footer id="contatos" class="contatos">
+        <li class="link-linkedin">
+            <a href="https://www.linkedin.co/in/flávio-barbosa-a10b451a2">Linkdin</a>
+        </li>
+        <li class="link-facebook">
+            <a href="https://www.linkedin.co/in/flávio-barbosa-a10b451a2">Facebook</a>
+        </li>
+        <li class="link-twiter">
+            <a href="https://www.linkedin.co/in/flávio-barbosa-a10b451a2">Twiter</a>
+        </li>
+        <li class="link-whatsap">
+            <a href="https://www.linkedin.co/in/flávio-barbosa-a10b451a2">Whatsap</a>
+        </li>
+    </footer>
 </body>
 
 </html>
